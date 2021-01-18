@@ -32,10 +32,10 @@ App.use(BodyParser.urlencoded({limit: '50mb', extended: true}));
 App.use(Favicon(__dirname + "/public/images/favicon.ico"));
 
 /* Routes */
-const CatalogRoutes       = require("./routes/catalog.routes");
+const FairRoutes       = require("./routes/fair.routes");
 
-/* User ROUTES */
-App.use("/", CatalogRoutes);
+/* Fair ROUTES */
+App.use("/", FairRoutes);
 
 App.listen(Constants.PORT, function(){
     console.log('Your node js server is running on PORT ' + Constants.PORT);
