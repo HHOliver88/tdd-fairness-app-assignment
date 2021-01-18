@@ -16,5 +16,6 @@ This simple app will just be a single function that accepts 2 values. Build this
 # Instructions
 
 1. You will need to run the node server first before running any tests. 
-2. Make sure you work on this assignment in a docker container. The necessarily files to build and run this app in a docker container is already provided.
-3. Once done, you need to zip your app in one file and upload the zipped file in Hacker Hero.
+2. For now, just write the Fairness App function directly in the test file.
+3. Make sure you work on this assignment in a docker container. The necessarily files to build and run this app in a docker container is already provided.
+4. Once done, you need to zip your app in one file and upload the zipped file in Hacker Hero.
